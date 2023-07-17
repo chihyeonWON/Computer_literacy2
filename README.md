@@ -183,4 +183,8 @@ msgbox 내용(현재 날짜와 시간을 표시하는 Now), 기본 버튼 타입
 
 기타 작업까지 끝나면 2- 계산작업을 한다.(여기서 시험시간을 15~20분을 남길 수 있도록 연습한다.)
 ```
+## 계산작업
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/09d0d937-cd83-48ba-b26b-b02296e229c6)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/4e027e0a-23c2-4da3-9240-b651302949c9)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/5af8b064-ae71-4264-a31d-3bcc8cb32b0e)
 
