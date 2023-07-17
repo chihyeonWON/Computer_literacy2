@@ -65,3 +65,46 @@ B33에 나타나게 된다.
 
 1번 기본작업이 끝나면 2번 계산작업을 띄어넘고 3번 분석작업을 푼다.
 ```
+## 분석작업
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/29d5f7b6-f7e9-4630-acf9-f647ccf75a1a)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/0dd772f7-1755-4762-a6ce-30a226423c87)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/38097236-8d2c-47bd-a1b6-86beffe76854)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/8193be47-a090-4698-872d-e976618dc72f)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/8403df64-af8f-474f-b491-86fe890d48b3)
+```
+B2 셀을 클릭하고 데이터 - 데이터 가져오기 - 기타 원본에서 - Microsoft query 를 클릭하고
+MS Access Database 누르기 왜냐하면 상공중학교.accdb 즉 엑세스 파일이기 때문
+외부 데이터의 경로 엑셀은 C 드라이브 밑에 OA 폴더 밑의 상공중학교.accdb를 선택
+
+문제의 1학년 테이블에서 성별, 과목, 항목, 받은 점수를 순서대로 클릭한 후에
+피벗 테이블 보고서로 가져오고 나타낼 셀에 절대참조 B2를 넣어준다.
+
+보고서의 레이아웃을 개요 형식으로 먼저 바꿔준다.
+디자인 - 보고서 레이아웃 - 개요 형식으로 표시
+
+행, 열, 값에 맞는 것을 필드에 넣어준다.
+
+행(과목, 항목)
+열(성별)
+값(받은 점수) 받은 점수 필드 옆의 콤보상자 - 값 필드 설정 - 값 표시 형식 - 총합계 합계 비율로 설정
+
+확장/축소 단추가 표시되지 않도록 설정하기 위해서는 분석 - +/- 단추 해제  
+
+문제대로 하지 않고 피벗 테이블 그림과 내가 만든 피벗테이블하고 똑같이 나오는지를 결과로 확인
+피벗테이블은 배점이 크기 때문에 필수로 맞아야하는 항목
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/796173d3-2997-4f17-ad36-7b1323e7e945)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/b1f31dbd-2311-459f-b76b-a19e3903ff12)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/aa20a7ff-4898-4508-9ed0-40fdf3c23d99)
+```
+데이터 유효성 검사는 데이터 - 데이터 유효성 검사에서 제한 대상을 목록으로 원본의 범위를 D3:D8로 설정한다.
+
+표2의 2변수 데이터 표에서 아동수가 가로로 있으니까 행 데이터가 되고 선생님별 아동 비율이 열 데이터가 된다.
+
+B6의 수식을 데이터 표의 열과 행이 겹치는 B12에 연결해줘야 하는데 이때 =을 입력하고 B6셀을 선택한다.
+
+표2의 B12:G17을 선택하고 데이터 - 가상분석 - 데이터 표를 선택하고
+행 입력 셀에 표1 아동수의 B3을 선택 열 입력 셀에 표1 선생님별 아동 비율의 B4를 선택한다.
+
+데이터 표는 1변수와 2변수 두 종류가 있기 때문에 두 종류 모두 연습이 필요하다.
+```
