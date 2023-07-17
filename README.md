@@ -187,4 +187,7 @@ msgbox 내용(현재 날짜와 시간을 표시하는 Now), 기본 버튼 타입
 ![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/09d0d937-cd83-48ba-b26b-b02296e229c6)
 ![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/4e027e0a-23c2-4da3-9240-b651302949c9)
 ![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/5af8b064-ae71-4264-a31d-3bcc8cb32b0e)
-
+```
+5번은 개발도구 - visual basic - 창에서 모듈 - 프로시저 - 프로시저 이름을 fn 비고라고 입력하고
+매개변수로 두 개받은 다음 if then else endif 구문을 사용해서 푼다.
+```
