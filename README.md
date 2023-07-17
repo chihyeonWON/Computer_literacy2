@@ -32,4 +32,8 @@
 
 [23년 상시02 기출](https://www.youtube.com/watch?v=wklc-sYSToU)
 
-## DB 구축
+## 23년 상시02 엑셀
+
+### 기본 작업
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/7e1ae71b-0393-4533-919c-e912fea25d45)
+
