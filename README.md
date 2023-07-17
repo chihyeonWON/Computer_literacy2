@@ -108,3 +108,79 @@ B6의 수식을 데이터 표의 열과 행이 겹치는 B12에 연결해줘야 
 
 데이터 표는 1변수와 2변수 두 종류가 있기 때문에 두 종류 모두 연습이 필요하다.
 ```
+## 기타작업
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/21004a4e-f7fe-4364-a0cd-a41c0d4bde85)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/a45e40ed-9b30-47af-8212-1b4130bb217c)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/4979261a-6608-405f-a680-ec215c620550)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/8dc030bc-897f-4c79-8c42-bf02c6df0de4)
+```
+기타작업은 세가지로 이루어져있고 그 첫 번째는 매크로다. 매크로는 개발 도구 리본이 있어야 한다.
+
+첫 매크로는 A1셀이나 표가 아닌 빈 셀을 클릭하고 생성해주어야 한다. 표 안에 있으면 안된다.
+개발 도구 - 매크로 기록을 선택하고 매크로 이름은 서식적용으로 하고 확인한다. 이때부터 매크로가 기록된다.
+
+I3:I32 영역에 사용자 지정 표시 형식을 지정하니까 I3:I32 영역을 선택한 뒤 오른쪽 마우스 - 셀 서식 - 사용자 지정으로 간 뒤
+형식을 [>=280][빨강]"★"0;[>=260][파랑]"☆"0;0 입력하고 매크로 기록 중지를 누른다.
+
+단추를 K2:K3 영역에 생성하라고 했으니 먼저 범위를 설정하고 개발 도구 - 삽입 - 양식 컨트롤 - 단추를 선택한 후에
+Alt 키를 누르고 K2:K3 영역을 드래그 해준다. 그 후 생성한 서식적용 매크로를 연결해준다.
+
+그 후 글자를 서식적용이라고 입력한 후에 바깥을 클릭하면 서식적용 단추가 생성된다.
+
+그후 I3:I32 영역에 서식해제 매크로를 생성한다. 매크로 기록을 누르고 I3:I32를 선택한 후에 오른쪽 마우스 - 셀 서식 - 일반을 선택한 후에
+매크로 기록 중지를 한다.
+
+마찬가지로 K5:K6 영역 범위 설정하고 양식 컨트롤 - 단추 ALT 키 드래그 그 후 텍스트를 서식해제로 변경한 후에 저장한다.
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/70d3b5f8-7e30-44d6-a3f0-c6c45b46cb2f)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/0027dca8-9796-44a8-9f60-203d4a8e4500)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/c2c4d42a-1d92-4c22-a6a8-5f68b076209c)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/5ea9d4af-8919-487e-a09b-1c12f6857057)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/163908d3-0cc6-4043-bb59-4b45f93e3b33)
+```
+차트는 1번부터 5번까지 개별 점수
+
+막대 차트 왼쪽 마우스 클릭 계열 차트 종류 변경 - 혼합 -
+감가삼각비 계열의 차트종류를  표식이 있는 꺾은 선형, 보조 축 지정하고 확인 
+
+디자인 - 차트 요소 추가 or 차트 옆 + 표시를 선택한 후에 차트 제목과 보조 세로(값) 축 제목을 활성화
+
+왼쪽(기본 세로(값) 축)을 선택하고 오른쪽 마우스 축 서식 - 최대 경계를 400만 주 단위를 100만으로 설정
+오른쪽(보조 세로(값) 축)을 선택하고 오른쪽 마우스 축 서식 - 최대 경계를 40만 주 단위를 10만으로 설정
+
+취득원가 계열의 냉온풍기 요소 막대를 선택하고 오른쪽 마우스 데이터 레이블 표시
+레이블을 선택하고 오른쪽 마우스 데이터 레이블 서식에서 위치를 축에 가깝게로 설정
+
+제일 바깥 차트 영역을 선택해 놓고 서식 - 도형 스타일에서 검정, 어둡게 1로 지정하고 세로(값) 축의 주 눈금선의
+눈금선 서식에서 대시 종류를 파선으로 바꾼다.
+
+그림과 똑같은지를 최종적으로 확인
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/b01d54c3-fb63-4951-8944-a7654bf17927)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/45ae9e2f-c8bf-4314-92a3-ff98f18e2ff7)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/01df3618-f970-469e-a586-ef880b2e1e03)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/2337b9af-3d78-4b75-a9c8-338c6c921769)    
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/83738dec-b344-4c60-a146-22374ffe9732)
+```
+개발 도구 - 디자인 모드를 눌러 놓고 팡팡요금관리 단추를 더블클릭 하면 Visual basic 코드 편집기가 나온다.
+
+편집기에서 팡팡요금관리 폼이 나타나도록 설정하기 위해 팡팡요금관리.Show 코드를 입력한 후
+왼쪽의 프로젝트 탐색기 창의 폼의 팡팡요금관리를 띄워놓고 코드보기를 눌러서 사용자 폼 클릭의 initalize를 누르고
+목록의 범위 < RowSource 아이템을 넣겠다 <-AddItem
+여기서는 목록의 범위를 넣겠다는 것이니까 cmb구분.RowSource = "m6:n8" 을 입력하고
+opt유 = True (opt유.value = True)
+
+실행 버튼을 눌러서 불들어오는 지를 확인한다.
+
+기타작업 3의 2번은 생략(vba 어려운 문제)
+
+폼의 종료버튼을 더블클릭해서 cmd종료 클릭 함수 안에 메시지 박스를 띄우는 msgbox Now,,"등록화면을 종료합니다"
+메시지 박스를 표시한 후 폼을 종료 <- Unload Me
+
+msgbox 내용(현재 날짜와 시간을 표시하는 Now), 기본 버튼 타입(생략), 제목("등록화면을 종료합니다")
+
+실행 버튼을 눌러서 종료 버튼을 누른다음 폼이 나오고 확인 버튼을 누르면 종료되는 지를 확인한다.
+
+기타 작업까지 끝나면 2- 계산작업을 한다.(여기서 시험시간을 15~20분을 남길 수 있도록 연습한다.)
+```
+
