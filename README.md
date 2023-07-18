@@ -193,6 +193,8 @@ msgbox 내용(현재 날짜와 시간을 표시하는 Now), 기본 버튼 타입
 ```
 
 ## 23년 상시02 엑세스
+
+### 1. DB 구축
 ![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/b27ed902-f2c7-4f53-8750-7b2214649ecf)
 ```
 제조사 정보 테이블을 오른쪽 마우스 - 디자인 보기로 띄워놓는다.
@@ -223,14 +225,52 @@ msgbox 내용(현재 날짜와 시간을 표시하는 Now), 기본 버튼 타입
 
 저장하고 닫기 버튼을 누른다. 여기까지가 DB 구축 총 30점이다.
 ```
+#### 2. 입력 및 수정 기능 구현
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/02b3d968-562f-4db8-bfcc-a26940047a63)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/9c73b068-d1cc-414a-a6b1-3f9f58ef0ca9)
+```
+1. 제품판매정보 폼을 디자인 보기로 띄운다.
+폼 오른쪽 마우스 - 눈금을 없애도 된다. (다른건 손대면 안된다)
+디자인 - 보기 - 폼 보기를 했을 때 현재 단일 폼으로 되어 있음을 확인할 수 있다.
+하지만 문제의 그림은 연속 폼으로 되어 있다.
 
+2. 다시 디자인 보기로 와서 눈금자 앞의 검은 사각형을 선택한 후 디자인 - 속성 시트의 형식 탭에서 기본 보기를 연속 폼으로 변경한다.
+그 후 데이터 탭에서 정렬 기준 칸에 판매일자를 입력한다. ([] 대괄호를 안붙여도 된다) 오름차순은 ASC인데 기본값이 ASC이므로 생략해도 된다.
+만약 내림차순이라면 판매일자 DESC 이렇게 넣어준다.
 
+3. 폼 형식 탭에서 탐색 단추와 레코드 선택기가 표시되지 않도록 예에서 아니오로 변경한다.
 
+4. 언바운드되어 있는 txt판매일자 컨트롤을 선택하고 속성 시트에서 데이터 - 컨트롤 원본의 판매일자를 지정하고
+언바운드되어 있는 txt판매량 컨트롤을 선택하고 속성 시트에서 데이터 - 컨트롤 원본의 판매량을 지정한다.
 
+5. txt오늘날짜 컨트롤을 선택하고 날짜만 지정해주는 함수 =Date()를 입력하고 형식 탭의 형식에서 년, 월, 일, 요일 까지 나오는 자세한 날짜를 지정해준다.
 
+폼 보기를 눌러서 그림과 작성한 폼이 같으면 저장한다.
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/4fa34eaa-c086-43cc-a548-8b9e219eb946)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/dc7ff199-3fbc-4b70-b3b8-64b5c39a7fbb)
+```
+본문 폼의 눈금자를 선택하여 컨트롤을 모두 선택한 후 서식 - 조건부 서식을 선택한다.
+새 서식 규칙에서 필드가 한 개일 때는 필드 값으로 해도 되지만 필드가 여러 개일 경우에는 식으로 변경해야한다.
+식에 [판매량]<=20 을 입력하고 굵게와 빨강색을 지정한 후 확인 버튼을 누른다.
+폼 보기를 눌러서 20이하의 필드의 서식이 굵게, 빨강이 적용됨을 확인한다.
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/66cbbb0c-24b0-4965-aa5e-5801c1276c5e)    
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/4f3da2f4-e3b5-422d-a9ae-ecd5258b04d1)    
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/345b5c1b-1a92-4faa-83af-12b87d51ec74)   
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/28bd95ce-f2ac-4475-9e03-580d3fc2222e)   
+```
+만들기 - 매크로에서 첫 번째 함수에 메시지를 표시하는 messagebox를 두 번째 함수에 보고서를 여는 Openreport 함수를 선택한다.
+메시지 내용에 월별제품판매현황 보고서를 확인합니다.를 입력하고 제목으로 보고서확인을 입력, 버튼에 특별한 것이 없으므로
+종류를 없음으로 설정한다.
 
+OpenReport 함수에서 보고서 이름을 월별제품판현황을 선택하고 보기 형식을 인쇄 미리 보기로 하고 최종적으로 매크로를
+보고서보기라는 이름으로 저장한다.
 
+제품판매현황 폼을 디자인 보기로 열고 인쇄 버튼의 속성 시트의 이벤트 탭에서 On Click에 생성한 보고서보기 매크로를 지정해준다.
 
+저장하고 인쇄 단추를 눌렀을 때 그림과 같은 메시지박스가 나온 뒤 확인 버튼을 눌렀을 때 보고서가 미리 보기 형태로 출력되는 것을 확인한다.
+```
 
 
 
