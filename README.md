@@ -377,8 +377,36 @@ month(판매일자)&"월" 필드의 조건에 조건을 추가해도 된다.
 
 쿼리를 제품별월별판매횟수로 저장한다.
 ```
+## 23년 상시01 엑셀
 
+#### 기본작업
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/756626a9-91d3-4c39-80ba-1c9d6d47fa3c)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/5936662d-a987-4528-8ac2-5ce7438e658a)    
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/a0ce9bc4-e99c-4642-a0d4-6e62601e0783)
+```
+~이면서 이므로 AND() 함수를 사용하고 그 안에 조건식 2개를 넣는다.
+월납입액이 상위 5위 이내 < 월납입액의 첫 번째행을 선택한 후 >= large(array,5)
+대출일이 2021년 이내이므로 대출일의 첫 번째행을 선택한 후 >=2021을 A35 셀에 넣는다.
 
+데이터 - 고급필터에서 전체 영역을 선택하고 조건영역(A34:A35), 결과영역(A37)을 넣고 확인버튼을 누른다.
 
+문제에서 대출일,고객명,대출지점,월납입액 필드만 순서대로 표기하라고 하였으니 필요없는 필드들을 삭제하고 왼쪽으로 민다.
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/3b6973cc-a30a-404d-af26-8b6075b9854c)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/398513e5-07f9-4cdf-b150-d006b8fd2df3)
+```
+규칙 유형이 수식인 경우에 함수안에 혼합참조 형태로 들어가야 한다.
+빈칸에 AND() 함수안에 첫 번째 조건으로 OR을 두 번째 조건으로 LEFT를 사용한다.
 
+A3:H32 영역을 선택하고 홈-조건부 서식-수식을 사용하여 전에 만든 수식을 넣고 서식을 기울임꼴, 표준-녹색을 선택한 후 
+확인버튼을 누르고 저장한다.
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/afceeb81-383f-4d52-88fb-93b3edb76ed2)
+```
+페이지 레이아웃은 페이지 설정에서 용지 방향을 가로, 페이지 가운데 맞춤을 설정하고
+시트탭에서 인쇄영역을 A2:H32로 설정한 후 페이지의 내용 확대/축소 배율을 120%로 설정한다.
+매 페이지 상단의 오른쪽 구역에 현재 시스템의 날짜가 표시되도록 머리글 편집에서 날짜 설정 버튼을 누른다.
+
+기본작업이 끝나면 분석작업1 시트로 넘어간다.
+```
 
