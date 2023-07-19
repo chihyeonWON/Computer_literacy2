@@ -503,3 +503,8 @@ cmb제품명.AddItem "세탁기" ~~
 a1 셀의 글꼴을 궁서체로 < [a1].Font.Name = "궁서체" 를 입력하고 폼을 실행하여 종료 단추를 눌렀을 때
 a1의 셀 글꼴이 궁서체로 바뀌는 것을 확인한다.
 ```
+#### 계산작업
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/e87bc151-0884-4c53-9ae8-2aa00da4c45a)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/5952b08f-1b8d-4bda-b658-09b0a88e6dea)
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/359a26eb-361e-41f3-9adb-0b54e2316e35)
+
