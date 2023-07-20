@@ -508,3 +508,33 @@ a1의 셀 글꼴이 궁서체로 바뀌는 것을 확인한다.
 ![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/5952b08f-1b8d-4bda-b658-09b0a88e6dea)
 ![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/359a26eb-361e-41f3-9adb-0b54e2316e35)
 
+## 23년 상시01 엑세스 
+
+#### DB구축
+
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/55d45604-bade-4759-bce5-5dc9444bf172)
+```
+1.고객 테이블을 디자인 보기로 열고 고객번호 필드의 입력마스크에 >L000을 입력한다.
+
+2. 고객명 필드의 IME 모드를 한글로 변경한다.
+
+3. 전화번호 필드의 필수를 예로 변경한다. (빈 문자열 허용 X)
+
+4. 나이 필드의 데이터 형식은 숫자, 필드 크기는 255자 이하이므로 바이트로 설정한다.
+
+5. 성별 필드의 유효성 검사 규칙에 In ("남", "여")를 입력한다.
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/22a091a9-7b22-4452-9213-40a8a7bea1a4)
+```
+외부데이터 신규도서목록.txt를 가져오기 위해 외부 데이터 - 텍스트 파일을 선택한다.
+구분 기호를 탭으로, 첫 행을 필드의 이름으로 설정, 도서코드를 기본키로 설정하고 이름을 도서목록추가로 변경한다.
+```
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/41dadc08-85fc-43b3-afd0-9620feeb663b)
+```
+관계에서 도서 테이블이 없으므로 도서 테이블을 추가하고 대여내역 테이블의 도서코드 필드와 도서 테이블의 도서코드 필드를
+드래그하여 선으로 연결한 후 선을 더블클릭하고 항상 참조 무결성 체크, 관련 필드 모두 업데이트에 체크한다.
+```
+```
+DB 구축을 문제를 풀 때 작업이 끝난 테이블을 저장하고 닫아야 관계 설정단계에서 테이블을 사용 중이라고 뜨는 오류를 
+방지할 수 있다. 따라서 작업이 끝난 테이블은 저장하고 닫는 습관을 들여야 한다.
+```
