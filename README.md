@@ -664,3 +664,5 @@ like를 사용하여 like "*[1-5]"를 입력한다.
 
 크로스탭 쿼리를 도서대여현황으로 저장한다.
 ```
+## 22년 상시04 계산작업
+![image](https://github.com/chihyeonWON/Computer_literacy2/assets/58906858/d216594c-d85d-40ea-9ade-0b029e9d7692)
